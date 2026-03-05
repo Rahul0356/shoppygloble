@@ -1,16 +1,150 @@
-# React + Vite
+# 🛍️ ShoppyGlobe – E-Commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a modern **E-Commerce web application** built using **React, Redux Toolkit, and React Router**.
+The application allows users to browse products, view product details, add items to the cart, and proceed to checkout.
 
-Currently, two official plugins are available:
+This project demonstrates **state management, component-based architecture, routing, and API integration** in a scalable React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📦 Browse products from API
+* 🔍 View detailed product information
+* 🛒 Add products to shopping cart
+* ➕ Increase / decrease product quantity
+* ❌ Remove items from cart
+* 💳 Checkout page with order summary
+* 🔎 Product search functionality
+* ⚡ Fast UI with React and Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Frontend**
+
+* React.js
+* JavaScript (ES6)
+* Vite
+
+**State Management**
+
+* Redux Toolkit
+* React Redux
+
+**Routing**
+
+* React Router DOM
+
+**Styling**
+# Tailwind
+
+---
+
+## 📁 Project Structure
+
+```
+src
+│
+├── components
+│   ├── Header.jsx
+│   ├── ProductItem.jsx
+│   ├── CartItem.jsx
+│
+├── pages
+│   ├── ProductList.jsx
+│   ├── ProductDetail.jsx
+│   ├── Cart.jsx
+│   ├── Checkout.jsx
+│   └── NotFound.jsx
+│
+├── hooks
+│   └── useFetchProducts.js
+│
+├── redux
+│   ├── store.js
+│   ├── cartSlice.js
+│   └── searchSlice.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Rahul0356/shoppygloble
+```
+
+Move into the project directory
+
+```
+cd shoppyglobe
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start the development server
+
+```
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+
+
+---
+
+## 🎯 Learning Objectives
+
+This project helped practice:
+
+* React component architecture
+* Redux state management
+* API data fetching
+* Dynamic routing
+* Cart functionality
+* Performance optimization
+
+---
+
+
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the project and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Rahul Kumar**
+
+* GitHub: https://github.com/Rahul0356
+
+
+---
