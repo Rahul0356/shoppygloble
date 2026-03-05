@@ -87,7 +87,7 @@ const Checkout = () => {
               <input
                 type="text" id="name" name="name"
                 value={form.name} onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="Rahul kumar"
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition"
               />
             </div>
@@ -100,7 +100,7 @@ const Checkout = () => {
               <input
                 type="email" id="email" name="email"
                 value={form.email} onChange={handleChange}
-                placeholder="john@example.com"
+                placeholder="rahul@example.com"
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition"
               />
             </div>
